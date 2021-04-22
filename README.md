@@ -15,7 +15,7 @@ Firstly, an <a href="index.html">index.html</a> was created. <br.
 Using the tailwindcss cdn, i styled the body, the div containing the quotes, the text, and the button.<br>
 The button had an `id` of `get-jokes` and an eventListener to listen to the function of `click`<br>
 
-**Running the `main.js`**
+**Running the <a href="main.js">main.js</a>**
 Firstly, i tried using the **xhr method** to get the api from a remote source by :<br>
 - Declaring the button and giving it a function of `getjokes` at click event.
 - Create an xhr variable and set it to new XMLHttpRequest
