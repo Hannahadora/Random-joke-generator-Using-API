@@ -5,7 +5,7 @@
 // function getJokes(e) {
 //    const xhr = new XMLHttpRequest();
 
-//    xhr.open('GET', `http://api.icndb.com/jokes/random`,  true);
+//    xhr.open('GET', `https://api.icndb.com/jokes/random`,  true);
 
 
 //     xhr.onload = function () {
@@ -36,7 +36,7 @@ document.querySelector('.get-jokes').addEventListener('click', getJokes);
 
 
 function getJokes(e) {
-    fetch('http://api.icndb.com/jokes/random')
+    fetch('https://api.icndb.com/jokes/random')
     .then(function(res) {
         return res.json();
     })
