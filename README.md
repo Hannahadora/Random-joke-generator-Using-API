@@ -41,3 +41,6 @@ Secondly i also used the **FETCH API** method
 Using `.then()` function again to get to get the data
 - input the action you want once the url has been fetched.
 - Use the `.catch()` to catch the error incase of any.
+
+Pushed to netlify
+https://jokesrad.netlify.app/
