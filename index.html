@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/d2e0cde1e0.js" crossorigin="anonymous"></script>
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Overpass+Mono:wght@300&family=Ubuntu+Mono:ital@1&display=swap" rel="stylesheet">
+    <title>Jokes generator</title>
+</head>
+<body class="m-0 p-0 bg-cover bg-center bg-no-repeat w-full h-screen" style="background-image: url(https://images.pexels.com/photos/936048/pexels-photo-936048.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);">
+
+        <header class="lg:mx-20 md:mx-10 mx-5 py-5">
+            <h1 class="text-white md:text-3xl text-xl font-medium" style="font-family: montserrat;">
+                <i class="text-white md:text-xl text-base mr-2 fas fa-quote-left"></i>Home of Jokes</h1>
+        </header>
+
+        <div class="jokesBox mx-auto mt-5 md:w-8/12 w-10/12 h-auto bg-center p-5 bg-gray-700 bg-opacity-70 rounded text-center">
+            
+            <p id="jokesDisplay" class="md:text-3xl text-base font-serif font-medium text-white md:leading-10" style="font-family: 'Overpass Mono', monospace;">
+            Chuck Norris once kicked a horse in the chin. Its descendants are known today as Giraffes.
+            </p>
+
+        </div>
+
+        <div class="md:w-1/5 w-1/2 text-center mx-auto mt-7 absolute bottom-5 right-5">
+            <button class="get-jokes text-lg bg-black focus:outline-none text-white font-medium font-serif px-10 py-3 rounded-full" style="font-family: 'Ubuntu Mono', monospace;;">
+                More...
+            </button>
+        </div>
+        
+
+    <script src="main.js"></script>
+
+</body>
+</html>
+
