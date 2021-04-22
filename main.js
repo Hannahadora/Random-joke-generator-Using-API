@@ -5,7 +5,7 @@
 // function getJokes(e) {
 //    const xhr = new XMLHttpRequest();
 
-//    xhr.open('GET', `https://zenquotes.io/api/random`, { mode: 'no-cors'}, true);
+//    xhr.open('GET', `http://api.icndb.com/jokes/random`,  true);
 
 
 //     xhr.onload = function () {
@@ -41,14 +41,14 @@ function getJokes(e) {
         return res.json();
     })
     .then(function(data) {
-        console.log(data.value.joke);
+        // console.log(data.value.joke);
         document.querySelector('#jokesDisplay').innerText = data.value.joke;  
         document.querySelector('.jokesBox').style.backgroundColor =  "rgb("+e.offsetX+","+e.offsetY+", 40)";
         document.querySelector('.jokesBox').style.opacity = 0.7;
         document.querySelector('.get-jokes').style.backgroundColor =  "rgb("+e.offsetX+","+e.offsetY+", 40)";  
     })
    .catch(function(err) {
-       console.log(err); 
+    //    console.log(err); 
    });
 
    e.preventDefault(); 
