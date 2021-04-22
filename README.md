@@ -1,5 +1,4 @@
-<<<<<<< HEAD
-=======
+
 # Random-joke-generator
 A Chuck Norris API joke generator using both the Xmlhttprequest and Fetch API particularly<br>
 
