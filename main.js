@@ -32,10 +32,10 @@
 // USING FETCH API AND PROMISES
 
 
-document.querySelector('.get-jokes').addEventListener('click', getQuotes);
+document.querySelector('.get-jokes').addEventListener('click', getJokes);
 
 
-function getQuotes(e) {
+function getJokes(e) {
     fetch('http://api.icndb.com/jokes/random')
     .then(function(res) {
         return res.json();
